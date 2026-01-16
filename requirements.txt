@@ -1,0 +1,5 @@
+streamlit>=1.50
+python-dotenv>=1.0.1
+openai>=1.40.0
+pinecone>=5.0.0
+pypdf>=5.0.0
