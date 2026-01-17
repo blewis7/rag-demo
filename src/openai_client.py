@@ -33,6 +33,7 @@ def generate_answer(question: str, context: str) -> str:
 
     prompt = f"""
 You are a helpful assistant. Answer the user's question using ONLY the provided context.
+If the context contains relevant information that allows you to reasonably answer the question, summarize it.
 If the context does not contain the answer, say you don't know.
 
 Cite sources inline like: (source=..., page=...)
